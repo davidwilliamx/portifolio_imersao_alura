@@ -7,6 +7,8 @@
     --cor-branco: #F6F6F6;
     --cor-azul: #22D4FD;
     --cor-preto: #000000;
+    --montserrat-font: "Montserrat", sans-serif;
+    --krona-one-font: "Krona One", sans-serif;
 }
 html {
     font-size: 16px;
@@ -26,12 +28,21 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    width: 615px;
+    width: 593px;
+    margin-right: 58px;
 }
 h1 {
+    font-family: var(--krona-one-font);
+    font-size: 2.25rem;
+    line-height: 56px;
+    font-weight: 400;
     margin-bottom: 40px;
 }
 p {
+    font-family: var(--montserrat-font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 36px;
     margin-bottom: 51px;
 }
 .buttons {
@@ -39,15 +50,16 @@ p {
     justify-content: space-between;
 }
 .btn {
-    font-weight: bold;
+    font-family: var(--montserrat-font);
+    font-weight: 800;
     text-decoration: none;
+    text-align: center;
     color: var(--cor-preto);
     background-color: var(--cor-azul);
     border-radius: 16px;
     width: 280px;
     padding: 21px 0;
-    text-align: center;
 }
-.destaque-title {
+.destaque-title, .destaque-text {
     color: var(--cor-azul);
 }
