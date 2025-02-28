@@ -11,13 +11,11 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0 0 10%;
+    padding: 2% 0 0 15%;
 }
 
 .cabecalho__menu {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 80px;
 }
 
@@ -36,7 +34,7 @@ body {
 }
 
 .apresentacao {
-    padding: 5%;
+    padding: 5% 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,6 +57,11 @@ body {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+}
+
+.apresentacao__conteudo__texto a{
+    text-decoration: none;
+    color: #22D4FD;
 }
 
 .titulo-destaque {
